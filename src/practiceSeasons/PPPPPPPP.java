@@ -20,7 +20,7 @@ public class PPPPPPPP {
 		System.out.println(rev);
 		
 		//2. Using StringBuffer Class
-		StringBuffer sf = new StringBuffer(name1);
+		StringBuffer sf = new StringBuffer("Jamil");
 		System.out.println(sf.reverse());
 		
 
@@ -65,6 +65,7 @@ public class PPPPPPPP {
 		int highval = 0;
 
 		for (int i = 0; i < ss.length; i++) {
+			
 			
 		}
 		
