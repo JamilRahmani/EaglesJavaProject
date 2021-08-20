@@ -16,7 +16,7 @@ public class AnagramsString {
 
 		x = x.replace(" ", "");
 		y = y.replace(" ", "");
-
+		
 		x = x.toLowerCase();
 		y = y.toLowerCase();
 
@@ -34,6 +34,11 @@ public class AnagramsString {
 			System.out.println("Strings are not Anagram");
 		}
 
+		
+		
+		System.out.println("*************************************************");
+		
+		
 		boolean anagram = true;  // booleans like this are usually called a flag
 		
 		// check the length of each word = both should match
@@ -50,7 +55,7 @@ public class AnagramsString {
 					continue out; // now we are moving to the next index in the outer array
 				}
 			}
-			// since we got out od the inner loop and did not find a matching char, 
+			// since we got out odd the inner loop and did not find a matching char, 
 			// we know that these two sentences are not anagram
 			// so we are setting the boolean of anagram to false and breaking the out loop which will 
 			// stop the whole thing 

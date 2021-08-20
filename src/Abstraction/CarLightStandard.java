@@ -4,7 +4,8 @@ public interface CarLightStandard {
 	
 	public final static int x = 10;
 	
-	public void turnOnLight();
+	
+	public abstract void turnOnLight();// we can use abstract keyword in interface too its optional
 	
 	public void reverseLightSignalLight();
 	

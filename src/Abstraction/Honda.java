@@ -32,4 +32,10 @@ public class Honda extends Car implements CarMustHave, CarLightStandard{
 		
 	}
 
+	@Override
+	public void radio() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

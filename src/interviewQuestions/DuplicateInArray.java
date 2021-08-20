@@ -3,8 +3,13 @@ package interviewQuestions;
 
 public class DuplicateInArray {
 
+
+	
 	public static void main(String[] args) {
 
+	
+		
+		
 		// Shifting concept
 		int[] data = { 1,58,1,1 };
 		int[] data2 = new int[data.length];

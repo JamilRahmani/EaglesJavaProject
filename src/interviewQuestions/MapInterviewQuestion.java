@@ -15,7 +15,7 @@ public class MapInterviewQuestion {
 				HashMap<Character, Integer> data = new HashMap<Character, Integer>();
 				
 				for (int i = 0; i < str.length(); i++) {
-					System.out.println(str.charAt(i));
+				//	System.out.println(str.charAt(i));
 					// check to see if the char is already in the map,
 					// if yes, increase the count
 					// if no, this is the first time that you see the char, so count is 1
@@ -35,7 +35,7 @@ public class MapInterviewQuestion {
 				System.out.println(data);
 				
 				// we can count how many words we have in the str through the same code but the sysout will be like this
-				System.out.println(str.split(" ").length);
+			//	System.out.println(str.split(" ").length);
 				
 				
 	//			foo(0);

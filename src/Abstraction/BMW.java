@@ -29,4 +29,10 @@ public class BMW implements CarMustHave, CarLightStandard{
 		
 	}
 
+	@Override
+	public void radio() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

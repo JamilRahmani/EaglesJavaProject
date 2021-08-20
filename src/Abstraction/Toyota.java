@@ -17,6 +17,12 @@ public class Toyota implements CarMustHave{
 		return 0;
 	}
 
+	@Override
+	public void radio() {
+		// TODO Auto-generated method stub
+		
+	}
+
 	
 	
 	

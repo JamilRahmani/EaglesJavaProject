@@ -15,9 +15,14 @@ public class Runner {
 		objA.printMessage();
 		
 		
+		
 		ChildB objB = new ChildB();
 		System.out.println("Class B Object: ");
 		objB.printMessage();
+		
+		
+		
+		
 		
 	}
 		
