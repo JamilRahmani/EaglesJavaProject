@@ -27,7 +27,7 @@ public class Palindrom {
 		System.out.print(input +" ");
 		System.out.println(temprev);
 		
-		
+	
 		
 		
 		

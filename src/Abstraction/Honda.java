@@ -8,13 +8,19 @@ public class Honda extends Car implements CarMustHave, CarLightStandard{
 		
 		System.out.println(CarLightStandard.multiply(5, 5));
 		
+		Honda name = new Honda();
+		
+		System.out.println(name.calcSomeNumbers());
 		
 		
 	}
 	
 	@Override
 	public double calcSomeNumbers() {
-		return 0;
+		double a = 10;
+		double b = 20;
+		double c = a + b;
+		return c;
 	}
 
 	@Override

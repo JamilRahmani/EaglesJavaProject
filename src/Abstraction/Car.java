@@ -1,7 +1,7 @@
 package Abstraction;
 
 public abstract class Car {
-	
+
 	
 	public void brake() {
 		

@@ -1,5 +1,7 @@
 package constructionPractice;
 
-public class SingleFamilyHouse {
+public class SingleFamilyHouse{
+	
+
 
 }

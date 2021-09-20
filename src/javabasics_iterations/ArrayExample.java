@@ -37,32 +37,33 @@ public static void main(String [] args) {
 	double avg = 0;
 	
 	for (int i =0; i <numbers.length; i++) {
-		if (numbers[i] > smallest) {
-			smallest = numbers[i];
+		if (numbers[i] > largest) {
+			largest = numbers[i];
 		}
 	}
 	for (int i =0; i <numbers.length; i++) {
-		if (numbers[i] > smallest) {
+		if (numbers[i] < smallest) {
 			smallest = numbers[i];
 		}
 	}
 	
-	for (int i =0; i <numbers.length; i++) {
-		if (numbers[i] > largest) {
-			largest = numbers[i];
-		}else if (numbers[i] < smallest) {
-			smallest = numbers[i];
-		}
-		sum += numbers[i];
-		
-	}
+	// This is the second way to find large and small numbers in one loop
+//	for (int i =0; i <numbers.length; i++) {
+//		if (numbers[i] > largest) {
+//			largest = numbers[i];
+//		}else if (numbers[i] < smallest) {
+//			smallest = numbers[i];
+//		}
+//		//sum += numbers[i];
+//		
+//	}
 	avg = sum / numbers.length;
 	
 	System.out.println("Largest " +largest);
 	System.out.println("Smallest " +smallest);
-	System.out.println("Sum " + sum);
-	System.out.println("Average " + avg);
-	
+//	System.out.println("Sum " + sum);
+//	System.out.println("Average " + avg);
+//	
 	
 	
 	

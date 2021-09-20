@@ -13,7 +13,7 @@ public class CountTheWords {
 	     //you need to create a Hashmap and for Hashmap key value will be words and value will be integer of counts
 	     //for loop to iterate through hasmap to check if key is repeated and add it to hasmap value.
 	     String value = "today is the worst day i ever had in my life today";
-	     String [] split = value.split(""); // count characters you split without the space value.split("")
+	     String [] split = value.split(" "); // count characters you split without the space value.split("")
 	     //  count Words you split with the space value.split(" ")
 	     HashMap<String,Integer> map = new HashMap<String,Integer>();
 	     for (int i=0; i<split.length; i++){
@@ -26,6 +26,19 @@ public class CountTheWords {
 	         }
 	         }
 	         System.out.println(map);
+	         
+	         
+	         // Find The count of words in String
+	         String str = "java program is my language";
+	         int count = 1;
+	        // int len = str.length();
+	         
+	         for (int i = 0; i < str.length()-1; i++) {
+	        	 if (str.charAt(i) == ' ' && str.charAt(i+1) != ' ') {
+	        		 count++;
+	        	 }
+	         }
+	         System.out.println(count);
 	     }
 		
 		

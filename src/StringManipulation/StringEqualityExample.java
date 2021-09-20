@@ -10,7 +10,7 @@ public class StringEqualityExample {
 		System.out.println(str1 ==str2);
 		
 		
-		String str3 = "esting";
+		String str3 = "testing";
 		String str4 = new String ("testing");
 		System.out.println(str3 == str4);
 		System.out.println(str3.equals(str4));

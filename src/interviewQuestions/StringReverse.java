@@ -16,6 +16,7 @@ public class StringReverse {
 		}
 		System.out.println(rev);
 		
+		
 		//2. Using StringBuffer Class
 		StringBuffer sf = new StringBuffer("khan");// we can also use String here instead of "khan"
 		System.out.println(sf.reverse());
@@ -31,6 +32,7 @@ public class StringReverse {
 		System.out.println(output);
 		
 	}
+	
 	private static String reverse(String input) {
 		String reverse = "";
 		

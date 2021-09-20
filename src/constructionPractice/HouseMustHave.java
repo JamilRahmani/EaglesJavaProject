@@ -8,5 +8,4 @@ public interface HouseMustHave {
 	public void bathroom();
 	public void livingroom();
 	
-
 }

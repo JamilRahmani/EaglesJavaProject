@@ -2,6 +2,7 @@ package constructionPractice;
 
 public abstract class HouseFoundation {
 	
+	static int i = 10;
 	
 	public abstract void foundation();
 	

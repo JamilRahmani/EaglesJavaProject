@@ -41,7 +41,7 @@ public class IfStatement {
 			System.out.println("Failled");
 		}
 //       IF Statement can be done this way too
-	double score = 99;
+	double score = 89;
 		
 		if (score >= 90) {
 			System.out.println( "you got A" + ((score >= 95) ? "+": "-" ));

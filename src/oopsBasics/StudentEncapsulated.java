@@ -51,9 +51,9 @@ public class StudentEncapsulated {
 	}
 	
 	public String getSSN() {
-	//	String temSSN = "***-**-" + ssn.substring(7);//Starting from index 7 the ssn
+		String temSSN = "***-**-" + ssn.substring(7);//Starting from index 7 the ssn
 	//	String temSSN =  ssn.substring(0, 3) + "-**-****";
-		String temSSN =  ssn.substring(0, 3) + "-**-"+ssn.substring(7);
+	//	String temSSN =  ssn.substring(0, 3) + "-**-"+ssn.substring(7);
 		return temSSN;
 	}
 	

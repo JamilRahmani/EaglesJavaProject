@@ -17,9 +17,8 @@ public class WrapperClassesExamples {
 		int x = 10;
 		String str = "20";
 		
-		System.out.println(x+str); //1012
+		System.out.println(x+str); //1020
 		System.out.println(x + Integer.valueOf(str));
-		
 	
 		
 		
