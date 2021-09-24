@@ -13,7 +13,7 @@ public class AnagramsString {
 
 		String x = "He is aradhya";
 		String y = "he is HRADAYA";
-
+		
 		x = x.replace(" ", "");
 		y = y.replace(" ", "");
 		

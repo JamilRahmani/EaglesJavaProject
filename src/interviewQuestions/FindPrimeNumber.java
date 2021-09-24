@@ -6,7 +6,7 @@ public class FindPrimeNumber {
 
 
 		 int i,m=0,flag=0;    
-		  int n=100;//it is the number to be checked  
+		  int n=11;//it is the number to be checked  
 		  m=n/2;   
 		  
 		  if(n==0||n==1){

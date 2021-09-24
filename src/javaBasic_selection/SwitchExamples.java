@@ -44,7 +44,7 @@ public class SwitchExamples {
 		
 		System.out.println("******** Doing the same thing with an IF statement");
 		if (str.equals("no charged")){
-			System.out.println("play it in");
+			System.out.println("plug it in");
 		}else if (str.equals("half charged")){
 			System.out.println("you could charge it a bit more");
 		}else if (str.equals("charged"));{

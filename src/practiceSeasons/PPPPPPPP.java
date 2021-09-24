@@ -9,18 +9,18 @@ import java.util.Map;
 public class PPPPPPPP {
 
 
-	String str = "jamil";
+	 String str = "jamil";
 
 	public static void main(String[] args) {
 	
 		reverseWord("jamil is a tester");
 		
 		// How to reverse String word by word
-		// Like this: limaj si a retset
+		// Like this:  limaj si a retset
 		String str2 = "jamil is a tester";
 		String [] words = str2.split(" ");
 		// 1st for loop: {jamil, is , a , tester}
-		// {{l,i,m,a,j}, {s,i}, {a}, {r,e,t,s,e,t}}
+		// 2nd for loop {{l,i,m,a,j}, {s,i}, {a}, {r,e,t,s,e,t}}
 		String rev4 = "";
 		
 		// i will run through the loop 

@@ -5,14 +5,31 @@ import java.util.Iterator;
 public class PaliNumber {
 
 	public static void main(String[] args) {
-		int input = 12345432;
+		
+		// 1st way to find palindrome numbers
+		int num1 = 1234321;
+
+		char[] ss = String.valueOf(num1).toCharArray();
+
+		for (int forward = 0, backward = ss.length - 1; forward < ss.length; forward++, backward--) {
+			if (forward == backward || forward > backward) {
+				System.out.println("this is pali number");
+				break;
+			}
+			if (ss[forward] != ss[backward]) {
+				System.out.println("this is not a pali number");
+				break;
+			}
+		}
+
+		// 2nd way to find palindrome numbers
+		int input = 123454321;
 
 		System.out.println(checkPal(input));
 
 		int num = 123454321;
 		System.out.println(num == revNum(num));
-		
-		
+
 	}
 
 	public static boolean checkPal(int input) {
@@ -39,7 +56,7 @@ public class PaliNumber {
 		}
 		return reverse;
 	}
-	
+
 	public static boolean palinINT(int number) {
 		return number == revNum(number);
 	}
