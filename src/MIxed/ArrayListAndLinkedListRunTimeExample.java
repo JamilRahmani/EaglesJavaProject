@@ -6,6 +6,8 @@ import java.util.LinkedList;
 public class ArrayListAndLinkedListRunTimeExample {
 
 	public static void main(String[] args) {
+		
+		// this is arrayList
 
 		ArrayList arrayList = new ArrayList();
 		LinkedList linkedList = new LinkedList();
@@ -32,7 +34,7 @@ public class ArrayListAndLinkedListRunTimeExample {
 		
 		System.out.println("Total LinkedList execution time: " + totalTimeLL);
 		System.out.println("Total ArrayList execution time: " + totalTimeAR);
-		
+		System.out.println("Total LinkedList execution time: " + totalTimeLL);
 		
 		
 		
