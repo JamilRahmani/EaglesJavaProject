@@ -7,6 +7,10 @@ public class ArrayListAndLinkedListRunTimeExample {
 
 	public static void main(String[] args) {
 		
+<<<<<<< HEAD
+=======
+		
+>>>>>>> 8ec0f28b4daa0b3754602a72fba8b45286a70642
 
 		ArrayList arrayList = new ArrayList();
 		LinkedList linkedList = new LinkedList();
@@ -33,6 +37,10 @@ public class ArrayListAndLinkedListRunTimeExample {
 		
 		System.out.println("Total LinkedList execution time: " + totalTimeLL);
 		System.out.println("Total ArrayList execution time: " + totalTimeAR);
+<<<<<<< HEAD
+=======
+		
+>>>>>>> 8ec0f28b4daa0b3754602a72fba8b45286a70642
 		
 		
 		
