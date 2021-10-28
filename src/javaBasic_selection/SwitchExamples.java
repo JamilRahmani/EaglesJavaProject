@@ -26,7 +26,9 @@ public class SwitchExamples {
 		
 	// no charged - play it in!
 	// half charged - you could charge it a bit more!
-	// more charged - Un-plug the phone!	
+	// more charged - Un-plug the phone!
+		
+		System.out.println("****************************");
 		String str = "charged";
 		
 		switch (str) {

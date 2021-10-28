@@ -17,17 +17,17 @@ public class DuplicateInArray {
 					System.out.println("indexs " + i + " and " + j + " contain duplicate values " + data[i]);
 				}
 			}
-			if (duplicate == false) {
-				data2[i] = data[i];
-			}
-			duplicate = false;
+//			if (duplicate == false) {
+//				data2[i] = data[i];
+//			}
+//			duplicate = false;
 
 		}
 
-		for (int i = 0; i < data.length; i++) {
-			System.out.println(data2[i]);
-		}
-		System.out.print(duplicate);
+//		for (int i = 0; i < data.length; i++) {
+//			System.out.println(data2[i]);
+//		}
+		//System.out.print(duplicate);
 
 	}
 

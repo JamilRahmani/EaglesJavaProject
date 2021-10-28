@@ -1,49 +1,52 @@
 package practiceSeasons;
 
+
 import java.util.Arrays;
+
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Map;
 
-public class PPPPPPPP {
+public class PPPPP {
 
 
-	 String str = "jamil";
 
-	public static void main(String[] args) {
-	
-		reverseWord("jamil is a tester");
+	String str = "jamil";
+
+	public static void main(String [] args) {
 		
+		
+		// reverseWord("jamil is a tester");
+
 		// How to reverse String word by word
 		// Like this:  limaj si a retset
 		String str2 = "jamil is a tester";
-		String [] words = str2.split(" ");
+		String[] words = str2.split(" ");
 		// 1st for loop: {jamil, is , a , tester}
 		// 2nd for loop {{l,i,m,a,j}, {s,i}, {a}, {r,e,t,s,e,t}}
 		String rev4 = "";
-		
-		// i will run through the loop 
+
+		// i will run through the loop
 		for (int i = 0; i < words.length; i++) {
 			String word = words[i];
 			// nasted loop
-			for (int j = word.length()-1; j >=0; j--) {
+			for (int j = word.length() - 1; j >= 0; j--) {
 				rev4 += word.charAt(j);
 			}
-			rev4 += " ";
+			//rev4 += " ";
 		}
 		System.out.println(rev4);
-		
-		
+
 		// Find the second highest number
-		int [] rrr = {3,88,98,34,9876,6,8};
-		
+		int[] rrr = { 3, 88, 98, 34, 9876, 6, 8 };
+
 		Arrays.sort(rrr);
 		System.out.println(rrr[2]);
-		
+
 		// ym si siht
-		//siht si ym 
-		
+		// siht si ym
+
 		// ODD Numbers in string
 		String s = "This is my";
 		String[] dd = s.split(" ");
@@ -55,7 +58,7 @@ public class PPPPPPPP {
 		}
 		System.out.println();
 
-		PPPPPPPP str1 = new PPPPPPPP();
+		PPPPP str1 = new PPPPP();
 
 		System.out.println(str1.str);
 
@@ -63,7 +66,7 @@ public class PPPPPPPP {
 //		String s1 = new String ("automation");
 //		String s2 = new String ("AUTOMATION");
 //		System.out.println(s1 == s2);
-		
+
 		String str = "hello";
 		StringBuffer sb = new StringBuffer("hello");
 		System.out.println(str.equals(sb.toString()));
@@ -101,7 +104,6 @@ public class PPPPPPPP {
 			System.out.println(i);
 		}
 
-		
 		HashSet<Integer> h = new HashSet<Integer>();
 
 		h.add(13);
@@ -118,37 +120,38 @@ public class PPPPPPPP {
 			System.out.println("index numbers: " + it.next());
 		}
 
-
 		// Highiest value
 		int[] ss = { 2, 4, 6, 456, 87, 45 };
 		int highval = 0;
 
 		for (int i = 0; i < ss.length; i++) {
 			if (ss[i] > highval) {
-			highval = ss[i];
-			
+				highval = ss[i];
+
 			}
 		}
 		System.out.println(highval);
-		
-			int in = 1, j = 2, k2 = 3;
+
+		int in = 1, j = 2, k2 = 3;
 		int m = in-- - j-- - k2--;
 		System.out.println(m);
+		
+		reverseWord("freshta is a tester");
+		
 	}
 
 	public static void reverseWord(String str) {
 		// tester a is jamil
 		// jamil is a tester
-		String []word = str.split(" ");
+		String[] word = str.split(" ");
 		String rev = "";
-		
-		for (int i =word.length-1; i >=0;i--) {
+
+		for (int i = word.length - 1; i >= 0; i--) {
 			rev += word[i];
 			rev += " ";
 		}
 		System.out.println(rev);
-		
-	}
 
+	}
 
 }

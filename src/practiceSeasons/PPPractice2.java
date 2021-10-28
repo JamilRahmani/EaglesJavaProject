@@ -1,11 +1,13 @@
 package practiceSeasons;
 
-public class PPPPPPPractice2 {
-
+public class PPPractice2 {
+	
 	
 	public static void main(String[] args) {
 		
 		
-	}
+		
+		
 
+	}
 }

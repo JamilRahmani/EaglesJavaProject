@@ -50,6 +50,7 @@ public class Array2DimensionExample {
 		userpass[0][0] = "admin";
 		userpass[0][1] = "pass123";
 		
+		
 		userpass[1][0] = "guest";
 		userpass[1][1] = "12345pass";
 		

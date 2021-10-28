@@ -8,8 +8,9 @@ public class PaliNumber {
 		
 		// 1st way to find palindrome numbers
 		int num1 = 1234321;
-
 		char[] ss = String.valueOf(num1).toCharArray();
+		
+		//int []  num =  {1,2,3,3,4,5,4,3,2,1};
 
 		for (int forward = 0, backward = ss.length - 1; forward < ss.length; forward++, backward--) {
 			if (forward == backward || forward > backward) {

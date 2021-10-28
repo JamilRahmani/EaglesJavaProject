@@ -14,8 +14,9 @@ public class CountTheWords {
 	     //for loop to iterate through hasmap to check if key is repeated and add it to hasmap value.
 	     String value = "today is the worst day i ever had in my life today";
 	     String [] split = value.split(" "); // count characters you split without the space value.split("")
-	     //  count Words you split with the space value.split(" ")
 	     HashMap<String,Integer> map = new HashMap<String,Integer>();
+	     // we use collection hashmap and then im gonna user for each loop
+	     // then i will say contiankey 
 	     for (int i=0; i<split.length; i++){
 	         if (map.containsKey(split[i])){
 	             int count = map.get(split[i]);

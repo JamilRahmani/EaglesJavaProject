@@ -20,7 +20,15 @@ public class MaxAndMinNumbers {
 			if (numbers[i] < smallest) {
 				smallest = numbers[i];
 			}
+			sum += numbers[i];
 		}
+		avg = sum / numbers.length;
+		
+		
+		System.out.println(largest);
+		System.out.println(smallest);
+		System.out.println(sum);
+		System.out.println(avg);
 		
 		
 		

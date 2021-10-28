@@ -31,7 +31,7 @@ public class ArraysBasics {
 
 		for (int i = 0; i < days.length; i++) {
 			System.out.println(days[i] + " " +i);
-			days[i] = (i + 1) + ". " + days[i];
+			days[i] = (i) + ". " + days[i];
 		//	days[i] = null;
 		}
 

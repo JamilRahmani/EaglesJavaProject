@@ -1,6 +1,6 @@
 package GroupPractice;
 
-import practiceSeasons.PPPPPPPractice2;
+import practiceSeasons.PPPractice2;
 
 public class Concatination {
 
