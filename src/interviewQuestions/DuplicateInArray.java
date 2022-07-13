@@ -6,14 +6,15 @@ public class DuplicateInArray {
 
 		// Shifting concept
 		int[] data = { 1, 58, 1, 1 };
-		int[] data2 = new int[data.length];
-
+	//	int[] data2 = new int[data.length];
+		int count = 0;
 		boolean duplicate = false;
 
 		for (int i = 0; i < data.length; i++) {
 			for (int j = i + 1; j < data.length; j++) {
-				if (data[i] == data[j]) {
-					duplicate = true;
+				if (data[i] != data[j]) {
+					//count++;
+					//duplicate = true;
 					System.out.println("indexs " + i + " and " + j + " contain duplicate values " + data[i]);
 				}
 			}

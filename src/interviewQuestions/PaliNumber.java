@@ -7,17 +7,17 @@ public class PaliNumber {
 	public static void main(String[] args) {
 		
 		// 1st way to find palindrome numbers
-		int num1 = 1234321;
-		char[] ss = String.valueOf(num1).toCharArray();
+		//int num1 = 1234321;
+		//char[] ss = String.valueOf(num1).toCharArray();
 		
-		//int []  num =  {1,2,3,3,4,5,4,3,2,1};
+		int []  num1 =  {1,2,3,4,5,4,3,2,1};
 
-		for (int forward = 0, backward = ss.length - 1; forward < ss.length; forward++, backward--) {
+		for (int forward = 0, backward = num1.length - 1; forward < num1.length; forward++, backward--) {
 			if (forward == backward || forward > backward) {
 				System.out.println("this is pali number");
 				break;
 			}
-			if (ss[forward] != ss[backward]) {
+			if (num1[forward] != num1[backward]) {
 				System.out.println("this is not a pali number");
 				break;
 			}

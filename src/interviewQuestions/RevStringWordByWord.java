@@ -19,12 +19,12 @@ public class RevStringWordByWord {
 		// 2nd for loop {{l,i,m,a,j}, {s,i}, {a}, {r,e,t,s,e,t}}
 		for (int i = 0; i < words.length; i++) {
 			String word = words[i];
-			String revWord = "";
+			
 			// 2nd for loop {{l,i,m,a,j}, {s,i}, {a}, {r,e,t,s,e,t}}
 			for (int j = word.length() - 1; j >= 0; j--) {
-				revWord += word.charAt(j);
+				revString += word.charAt(j);
 			}
-			revString += revWord + " ";// avaj gnimmargorp
+			revString += " ";// limaj si a retset
 		}
 		System.out.println(revString);
 

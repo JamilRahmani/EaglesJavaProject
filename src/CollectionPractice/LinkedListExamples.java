@@ -14,6 +14,6 @@ public class LinkedListExamples {
 		data.add("44");
 
 		System.out.println(data);
-
+		
 	}
 }

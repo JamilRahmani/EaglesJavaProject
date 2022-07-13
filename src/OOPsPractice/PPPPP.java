@@ -1,21 +1,30 @@
-package practiceSeasons;
+package OOPsPractice;
 
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
 
-public class PPPPP {
+public  class PPPPP {
 
 
-
-	String str = "jamil";
+ 
+	 String str = "jamil";
 
 	public static void main(String [] args) {
 		
+		
+		int x = 10;
+		int x2 = 20;
+		String ss2 = "Test";
+		
+		System.out.println(x+x2+ss2);
+		System.out.println(ss2+x+x2);
 		
 		// reverseWord("jamil is a tester");
 
@@ -34,15 +43,22 @@ public class PPPPP {
 			for (int j = word.length() - 1; j >= 0; j--) {
 				rev4 += word.charAt(j);
 			}
-			//rev4 += " ";
+			rev4 += " ";
 		}
 		System.out.println(rev4);
 
 		// Find the second highest number
 		int[] rrr = { 3, 88, 98, 34, 9876, 6, 8 };
-
-		Arrays.sort(rrr);
-		System.out.println(rrr[2]);
+		int smallest = rrr[0];
+		//Arrays.sort(rrr);
+		
+		for (int i = 0; i < rrr.length; i++) {
+			if (rrr[i] < smallest) 
+				smallest = rrr[i];
+		}
+		System.out.println(smallest);
+		
+		//System.out.println(rrr[2]);
 
 		// ym si siht
 		// siht si ym
@@ -136,7 +152,40 @@ public class PPPPP {
 		int m = in-- - j-- - k2--;
 		System.out.println(m);
 		
-		reverseWord("freshta is a tester");
+		// Fibonacci
+		int f1 = 0;
+		int f2 = 1;
+		int sum = 0;
+		
+		for (int i = 0;i<=21;) {
+			System.out.println(f1);
+			sum = i+f2;
+			f2 =i;
+			f1=sum;
+			i=f1;
+		}
+		
+		
+		// sorted by only keys no value
+		HashMap<String, String> mm = new HashMap<String, String>();
+		mm.put("1", "one");
+		mm.put("2", "two");
+		mm.put("3", "three");
+		mm.put("4", "four");
+		mm.put("5", "five");
+		
+		System.out.println(mm);
+		
+		
+		
+		List<String> sortedKeys = new ArrayList<String>(mm.size());
+		sortedKeys.addAll(mm.keySet());
+		//mm.values().containsAll(sortedKeys);
+		System.out.println(sortedKeys);
+		
+		reverseWord("Jamil is a tester");
+		
+		
 		
 	}
 

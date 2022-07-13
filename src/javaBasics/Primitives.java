@@ -15,7 +15,7 @@ public class Primitives {
 		System.out.println("short" + firstShort);
 		
 //      int
-		int firstInt = 23455676;
+		int firstInt = 234556767;
 		System.out.println("int" + firstInt);
 		
 //      long
