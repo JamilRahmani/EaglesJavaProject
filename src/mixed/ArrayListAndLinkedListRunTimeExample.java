@@ -1,4 +1,4 @@
-package MIxed;
+package mixed;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

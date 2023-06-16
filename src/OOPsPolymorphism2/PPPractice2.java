@@ -12,34 +12,12 @@ import OOPsPractice.PPPPP;
 
 public class  PPPractice2 extends PPPPP{
 	
-	public static String rev5(String m) {
-		
-	String [] len = m.split(" ");
-		String r2 = "";
-		for (int j = 0; j < len.length; j++) {
-			String word = len[j];
-		
-		for (int i = word.length()-1; i >=0; i--) {
-			r2 += word.charAt(i);
-		}
-		r2 += " "; 
-		}
-		System.out.println(r2);
-		return r2;
-	}
-	
-	
 	public static void main(String[] args) {
 		
 		
 		int x = 10;
 		int x2 = 20;
 		String sss = "Test";
-		
-		System.out.println(10+20+"Test");
-		System.out.println("Test"+10+20);
-	
-		
 		
 		
 		String s1 = new String ("AUTOMATION");
@@ -55,17 +33,14 @@ public class  PPPractice2 extends PPPPP{
 			for (int j = i+1 ; j < arrr.length; j++) {
 				if (arrr[i] == arrr[j]) {
 					duplicate = true;
-					System.out.println();
+					System.out.println(i + "contians duplicate "+j);
+					System.out.println(duplicate);
 				}
 				
 			}
 		}
 		
 	
-	
-		
-		rev5("My name khan");
-		
 		HashSet<String> set = new HashSet();
 		
 		set.add("Test");
@@ -76,7 +51,6 @@ public class  PPPractice2 extends PPPPP{
 			System.out.println(s);
 		}
 
-		
 		
 		String str = "Cheater and who give cheat are going into the hell and it is not applying for this group";
 		String [] split= str.split(" ");
@@ -89,6 +63,22 @@ public class  PPPractice2 extends PPPPP{
 			rev += " ";
 		}
 		System.out.println(rev);
+		
+		HashMap<Character, Integer> mp = new HashMap<Character, Integer>();
+		
+		for (int i = 0; i < str.length(); i++) {
+			if(mp.get(str.charAt(i)) == null) {
+				mp.put(str.charAt(i), 1);
+			}else {
+				mp.put(str.charAt(i), mp.get(str.charAt(i)) +1);
+			}
+		}
+		
+		
+		
+		
+		
+		
 		
 	}
 	

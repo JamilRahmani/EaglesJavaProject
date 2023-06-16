@@ -2,9 +2,11 @@ package interviewQuestions;
 
 public class StringReverse {
 
+
 	public static void main(String[] args) {
 
-
+		reverseString("Java code");
+		
 		String name = "jamil";
 		
 		// Using for loop
@@ -54,6 +56,15 @@ public class StringReverse {
 		return reverse.trim();
 		
 		
+		
+	}
+	public static String reverseString(String name) {
+		String rev = "";
+		for (int i = name.length(); i >=0; i--) {
+			rev += name.charAt(i);
+		}
+		System.out.println(rev);
+		return rev;
 	}
 
 }

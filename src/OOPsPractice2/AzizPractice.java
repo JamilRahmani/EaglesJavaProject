@@ -22,33 +22,7 @@ public class AzizPractice {
 		System.out.println(str2.equals(str3));
 		System.out.println(str3.equals(str4));
 		
-		String [] strArray =  {"test","not","test","test","test"};
-		
-		boolean duplicate = false;
-		
-		for (int i  = 0; i<strArray.length; i++) {
-			for (int j = i +1; j<strArray.length;j++) {
-				if (strArray[i] == strArray[j]) {
-					
-					System.out.println(i + " And "+ j + " Contains duplicate");
-				}
-			}
-		}
-		
-		String name = "this is my first java code";
-		String [] len = name.split(" ");
-		String reverse = "";
-		
-		for (int i = 0; i < len.length; i++) {
-			String word = len[i];
-			for (int j = word.length()-1 ;j >=0; j--) {
-				reverse += word.charAt(j);
-				
-			}
-			reverse += " ";
-		}
-		System.out.println(reverse);
-		
+
 		
 		
 		

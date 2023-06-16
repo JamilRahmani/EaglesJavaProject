@@ -1,6 +1,5 @@
 package OOPsPractice;
 
-
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -10,26 +9,48 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-public  class PPPPP {
+public class PPPPP {
 
+	public void test1() {
+		System.out.println("PPPPPP");
+		int i = 50;
+		int j = 50;
+		int total = i + j;
+		System.out.println(total);
 
- 
-	 String str = "jamil";
+	}
 
-	public static void main(String [] args) {
-		
-		
+	String str = "jamil";
+
+	public static int num() {
+		int[] numbers = { 455, 7, 4354, 5, 345 };
+		int largest = 0;
+		for (int i = 0; i < numbers.length; i++) {
+			for (int j = i + 1; j < numbers.length; j++) {
+				if (numbers[i] > numbers[j]) {
+					largest = numbers[i];
+				}
+			}
+		}
+		System.out.println(largest);
+		return largest;
+	}
+
+	public static void main(String[] args) {
+
+		num();
+
 		int x = 10;
 		int x2 = 20;
 		String ss2 = "Test";
-		
-		System.out.println(x+x2+ss2);
-		System.out.println(ss2+x+x2);
-		
+
+		System.out.println(20 + 10 + "test");
+		System.out.println("test" + 20 + 10);
+
 		// reverseWord("jamil is a tester");
 
 		// How to reverse String word by word
-		// Like this:  limaj si a retset
+		// Like this: limaj si a retset
 		String str2 = "jamil is a tester";
 		String[] words = str2.split(" ");
 		// 1st for loop: {jamil, is , a , tester}
@@ -50,15 +71,15 @@ public  class PPPPP {
 		// Find the second highest number
 		int[] rrr = { 3, 88, 98, 34, 9876, 6, 8 };
 		int smallest = rrr[0];
-		//Arrays.sort(rrr);
-		
+		// Arrays.sort(rrr);
+
 		for (int i = 0; i < rrr.length; i++) {
-			if (rrr[i] < smallest) 
+			if (rrr[i] < smallest)
 				smallest = rrr[i];
 		}
 		System.out.println(smallest);
-		
-		//System.out.println(rrr[2]);
+
+		// System.out.println(rrr[2]);
 
 		// ym si siht
 		// siht si ym
@@ -151,21 +172,20 @@ public  class PPPPP {
 		int in = 1, j = 2, k2 = 3;
 		int m = in-- - j-- - k2--;
 		System.out.println(m);
-		
+
 		// Fibonacci
 		int f1 = 0;
 		int f2 = 1;
 		int sum = 0;
-		
-		for (int i = 0;i<=21;) {
+
+		for (int i = 0; i <= 21;) {
 			System.out.println(f1);
-			sum = i+f2;
-			f2 =i;
-			f1=sum;
-			i=f1;
+			sum = i + f2;
+			f2 = i;
+			f1 = sum;
+			i = f1;
 		}
-		
-		
+
 		// sorted by only keys no value
 		HashMap<String, String> mm = new HashMap<String, String>();
 		mm.put("1", "one");
@@ -173,20 +193,17 @@ public  class PPPPP {
 		mm.put("3", "three");
 		mm.put("4", "four");
 		mm.put("5", "five");
-		
+
 		System.out.println(mm);
-		
-		
-		
+
 		List<String> sortedKeys = new ArrayList<String>(mm.size());
 		sortedKeys.addAll(mm.keySet());
-		//mm.values().containsAll(sortedKeys);
+		// sortedKeys.addAll(mm.values());
+		// mm.values().containsAll(sortedKeys);
 		System.out.println(sortedKeys);
-		
+
 		reverseWord("Jamil is a tester");
-		
-		
-		
+
 	}
 
 	public static void reverseWord(String str) {

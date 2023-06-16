@@ -5,7 +5,7 @@ public class FindOddNumbersInString {
 	public static void main(String[] args) {
 
 
-		String s = "This is my first java program";
+		String s = "Let's code together";
 		
 		
 		

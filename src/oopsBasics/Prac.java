@@ -13,7 +13,7 @@ public class Prac {
 		for (char i : p.toCharArray()) {
 			if (p.indexOf(i)!= p.indexOf(i)) {
 			System.out.println("first non repeated char "+ i);
-			//break;
+			break;
 			}
 		}
 	
@@ -39,15 +39,16 @@ public class Prac {
 		System.out.println(s.concat(" sapient"));
 		
 		String [] name = {"java", "test", "java", "phython", "java","java"};
-		
-		for (int i = 0; i < name.length; i++) {
-			for (int j =  i +1; j < name.length; j++) {
-				if (name[i] == name[j]) {
-					System.out.println("Index of " + i+ " contains duplicate in "+ j);
+		int c = 0;
+		String dup = "";
+ 		 for (int i = 0; i < name.length; i++) {
+				if (name[i] == "java") {
+					dup = name[i];
+					c++;
 				}
-			}
 		}
-		
+ 		System.out.println( dup+", "+ c);
+ 		
 		int q = 4;
 		int b = 8;
 		if((b-q--)>=q) {
